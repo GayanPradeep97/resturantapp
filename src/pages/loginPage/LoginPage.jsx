@@ -2,6 +2,7 @@ import React from 'react'
 import './Login.min.css'
 import FoodBankIcon from '@mui/icons-material/FoodBank';
 import ClearIcon from '@mui/icons-material/Clear';
+import {Link} from 'react-router-dom';
 
 function LoginPage() {
   return (
@@ -41,7 +42,7 @@ function LoginPage() {
                     <div className="bottom">
 
                         <div class="register">
-                            <p>Don't have a account? <a href="register" >Sign Up</a></p>
+                            <p>Don't have a account? <Link to="/SignUp">Sign Up</Link></p>
                         </div>
 
                         <div class="forget">   

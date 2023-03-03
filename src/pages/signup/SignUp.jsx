@@ -1,4 +1,6 @@
 import React from 'react'
+import './SignUp.min.css'
+import {Link} from 'react-router-dom';
 
 function SignUp() {
   return (
@@ -25,7 +27,7 @@ function SignUp() {
                     </div>
                     <div class="inputbox"> 
                         <label>Phone Number</label>
-                        <input type="number" placeholder='+44' required ></input>     
+                        <input type="text" placeholder='+44' required ></input>     
                     </div>
 
                     <div class="inputbox"> 
@@ -44,7 +46,7 @@ function SignUp() {
                     <div className="bottom">
 
                         <div class="register">
-                            <p>Have an account? <a href="register" >Sign In</a></p>
+                            <p>Have an account? <Link to="/" >Sign In</Link></p>
                         </div>
 
                     </div>
