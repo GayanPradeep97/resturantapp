@@ -3,6 +3,7 @@ import './Login.min.css'
 import FoodBankIcon from '@mui/icons-material/FoodBank';
 import ClearIcon from '@mui/icons-material/Clear';
 import {Link} from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 
 function LoginPage() {
   return (
@@ -35,13 +36,16 @@ function LoginPage() {
                         <input type="password" placeholder='password' required ></input>            
                    </div>
 
-                   <div class="inputbox"> 
-                        <button>Log In</button>
+                   <div class="button"> 
+                   <Button variant="primary" size="lg">
+                        Login
+                        </Button>{' '}
                    </div>
 
                     <div className="bottom">
 
                         <div class="register">
+                        
                             <p>Don't have a account? <Link to="/SignUp">Sign Up</Link></p>
                         </div>
 
