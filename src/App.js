@@ -1,5 +1,6 @@
 import LoginPage from './pages/loginPage/LoginPage'
 import SignUp from './pages/signup/SignUp';
+import ForgotPassword from './pages/forgotpassword/ForgotPassword'
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
         <SignUp/>
       </Route>
 
+      <Route path='/ForgotPAssword'>
+        <ForgotPassword/>
+      </Route>
       </Switch>
       
     

@@ -46,7 +46,7 @@ function LoginPage() {
                         </div>
 
                         <div class="forget">   
-                            <a href="forgotPassword">Forget password?</a>
+                            <Link to="forgotPassword">Forget password?</Link>
                         </div>
                     </div>
                     
