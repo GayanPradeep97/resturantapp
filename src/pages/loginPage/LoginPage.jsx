@@ -14,12 +14,13 @@ function LoginPage() {
                     </div>
                     
                 <div className='background'>
+
                     <div className="logocontainr">
-                    <div className="logo">
-                        <span><FoodBankIcon/></span>
-                        <span className='text'>Resturant</span>
-                        <ClearIcon/>
-                    </div>
+                        <div className="logo">
+                            <span><FoodBankIcon/></span>
+                            <span className='text'>Resturant</span>
+                            <ClearIcon/>
+                        </div>
                     </div>
                     
 
@@ -30,23 +31,22 @@ function LoginPage() {
 
                     <div class="inputbox"> 
                         <label>Password</label>
-                        <input type="password" placeholder='password' required ></input>     
-                        
+                        <input type="password" placeholder='password' required ></input>            
                    </div>
 
                    <div class="inputbox"> 
-                   <button>Log In</button>
+                        <button>Log In</button>
                    </div>
 
                     <div className="bottom">
 
-                    <div class="register">
-                        <p>Don't have a account <a href="#" >Sign Up</a></p>
-                    </div>
+                        <div class="register">
+                            <p>Don't have a account? <a href="register" >Sign Up</a></p>
+                        </div>
 
-                    <div class="forget">   
-                        <a href="#">Forget Password</a>
-                    </div>
+                        <div class="forget">   
+                            <a href="forgotPassword">Forget password?</a>
+                        </div>
                     </div>
                     
                 </div>
